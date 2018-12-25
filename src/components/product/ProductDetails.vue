@@ -8,6 +8,7 @@
         <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 pro__info">
           <div class="pro__description">
             <small>{{product.manufacturer && product.manufacturer.name}}</small>
+            <small>{{ - product.manufacturer.name.length}}</small>
             <h3>{{product.name}}</h3>
             <p>{{product.description}}</p>
           </div>
